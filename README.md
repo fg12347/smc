@@ -9,7 +9,7 @@ Version 1.0
   - apt-get install gcc g++ automake libtool build-essential autotools-dev pkg-config bsdmainutils curl git -y
   - apt install g++-mingw-w64-x86-64 -y
   - PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g')
-  - git clone smc的网址
+  - git clone https://github.com/fg12347/smc.git
   - cd smc
   - cd depends
   - make HOST=x86_64-w64-mingw32
