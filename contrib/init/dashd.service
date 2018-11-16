@@ -1,0 +1,22 @@
+[Unit]
+Description=SMC's distributed currency daemon
+After=network.target
+
+[Service]
+User=smccore
+Group=smccore
+
+Type=forking
+PIDFile=/var/lib/smcd/smcd.pid
+ExecStart=/usr/bin/smcd -daemon -pid=/var/lib/smcd/smcd.pid \
+-conf=/etc/smccore/smc.conf -datadir=/var/lib/smcd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

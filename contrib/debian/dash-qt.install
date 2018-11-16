@@ -1,0 +1,6 @@
+usr/local/bin/smc-qt usr/bin
+share/pixmaps/smc32.xpm usr/share/pixmaps
+share/pixmaps/smc16.xpm usr/share/pixmaps
+share/pixmaps/smc128.png usr/share/pixmaps
+debian/smc-qt.desktop usr/share/applications
+debian/smc-qt.protocol usr/share/kde4/services/

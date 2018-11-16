@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SMC
+Comment=SMC P2P Cryptocurrency
+Comment[fr]=SMC, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SMC, eşten eşe kriptografik sanal para birimi
+Exec=smc-qt %u
+Terminal=false
+Type=Application
+Icon=smc128
+MimeType=x-scheme-handler/smc;
+Categories=Office;Finance;
